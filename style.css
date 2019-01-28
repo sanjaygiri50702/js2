@@ -1,0 +1,32 @@
+.form {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 6px;
+   float: right;
+  }
+  .input {
+    border-radius: 5px;
+    padding-top: 10px;
+    border-color: black;
+
+  }
+  label {
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 20px;
+  }
+  div{
+      padding-bottom: 10px;
+  }
+  nav{
+      height: 20px;
+  }
+  button{
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-color: black;
+  }
