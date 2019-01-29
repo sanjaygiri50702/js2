@@ -7,6 +7,7 @@ var sum = ()=>{
         
     }
     document.getElementById('add').innerHTML = `<h1>sum is ${findsum(array)}</h1>`;
+    document.getElementById('btn').style = 'background : blue;';
    
 }
 var findsum = (array) =>{
@@ -17,4 +18,12 @@ var findsum = (array) =>{
     }
     return sum;
 }
-
+var changeColor = () =>{
+    document.getElementById('form').style ='background:wheat;';
+}
+var addBorder  =()=>{
+    document.getElementById('btn').classList.add('border');
+}
+var removeBorder  =()=>{
+    document.getElementById('btn').classList.remove('border');
+}

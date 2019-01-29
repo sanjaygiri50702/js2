@@ -10,7 +10,7 @@
 <body>
 
     <div>
-        <form class="form">
+        <form class="form" id="form">
             <div class="input">
                 <label>UserName</label>
                 <input class="input" type="text" name="userName" id="">
@@ -19,14 +19,26 @@
                 <label>Password</label>
                 <input class="input" type="password" name="password" id="">
             </div>
+            <div>
+                <button>Submit</button>
+            </div>
         </form>
     </div>
     <div>
         <h1>Want to find sum of number???</h1>
-        <button onclick="sum()">Click here</button>
+        <button onclick="sum()" id="btn">Click here</button>
     </div>
     <div id="add">
 
+    </div>
+    <div>
+        <button onclick="changeColor()">Change color</button>
+    </div>
+    <div>
+        <button onclick="addBorder()">Add border</button>
+    </div>
+    <div>
+        <button onclick="removeBorder()">Remove border</button>
     </div>
     <script src="script.js"></script>
 </body>
